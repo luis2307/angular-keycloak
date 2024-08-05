@@ -1,0 +1,15 @@
+<h1>Home</h1>
+<p>Usted está logeado con el usuario {{ username }}.</p>
+<button (click)="logout()">Logout</button>
+
+<div>
+  <button (click)="fetchWeather()">Fetch Weather Forecast</button>
+</div>
+
+
+<div>
+    <h1>Contenido del textarea</h1>
+    <textarea  rows="5" cols="30">{{ weatherData }}</textarea>
+  
+  </div>
+ 

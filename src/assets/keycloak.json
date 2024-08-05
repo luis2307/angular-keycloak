@@ -1,0 +1,6 @@
+{
+    "realm": "my-realm",
+    "url": "http://localhost:18080/auth",
+    "clientId": "my-angular-client"
+  }
+  

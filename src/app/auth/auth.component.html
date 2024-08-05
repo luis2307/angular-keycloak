@@ -1,0 +1,8 @@
+<div *ngIf="!isAuthenticated">
+  <p>Bienvenido. Para iniciar sesión, presione el botón 'Login'.</p>
+  <button (click)="login()">Login</button>
+</div>
+<div *ngIf="isAuthenticated">
+  <p>Usted está logeado con el usuario {{ username }}.</p>
+  <button (click)="logout()">Logout</button>
+</div>
